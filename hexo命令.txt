@@ -1,0 +1,13 @@
+hexo clean (简写 hexo cl): 清除缓存文件 (db.json) 和已生成的静态文件 (public 目录)。建议每次生成或部署前都执行一次，可以避免很多不必要的麻烦。
+hexo generate (简写 hexo g): 生成静态文件。当有插件的简写命令冲突时，建议使用全拼。
+hexo server (简写 hexo s): 启动本地预览服务器。默认地址是 http://localhost:4000/。
+hexo deploy (简写 hexo d): 部署网站。
+
+为了方便，可以把命令用 && 连接起来一次性执行。
+hexo clean && hexo generate && hexo server
+
+
+生成待部署文件:
+hexo clean && hexo generate && hexo deploy
+# 或者简写
+hexo cl && hexo g && hexo d
