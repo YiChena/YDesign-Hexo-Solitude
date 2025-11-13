@@ -20,7 +20,7 @@
 site:
   name:
     class: text # text / i_class / img
-    custom: Solitude # Solitude / fas fa-ghost / /img/pwa/favicon.ico
+    custom: YDesign # Solitude / fas fa-ghost / /img/pwa/favicon.ico
   icon: /img/pwa/favicon.png # Site icon / 网站图标
 # --------------------------- end ---------------------------
 
@@ -31,8 +31,8 @@ nav:
   # Left Box
   # 左侧盒子
   group:
-   project: # name
-     Solitude: https://github.com/everfu/hexo-theme-solitude || /img/pwa/favicon.ico # name: url || icon
+   YDesign:  # name
+     YDesign: https://github.com/everfu/hexo-theme-solitude || /img/pwa/favicon.ico # name: url || icon
 
   # Menu
   # 菜单
@@ -95,11 +95,11 @@ hometop:
         img: https://i.postimg.cc/nhgjwjCS/git.png
         color: "#df5b40"
   group:
-    # 热门: /tags/Fire/ || fas fa-fire || linear-gradient(to right,#f65,#ffbf37)
+    热门: /tags/Fire/ || fas fa-fire || linear-gradient(to right,#f65,#ffbf37)
   recommendList:
     enable: true
     sup: 置顶
-    title: Solitude 官方文档
+    title: YDesign 导读
     url: https://solitude.js.org/
     img: /img/default.avif
     color: "none"
@@ -136,7 +136,7 @@ aside:
     # 介绍 / Introduction
     description: 只有迎风，风筝才能飞得更高。
     # 内容 / Content
-    content: # 这是我的博客 / This is my Blog
+    content: 这是我的博客 # 这是我的博客 / This is my Blog
     state:
       morning: ✨ 早上好，新的一天开始了
       noon: 🍲 午餐时间
@@ -144,7 +144,7 @@ aside:
       night: 早点休息
       goodnight: 晚安 😴
     witty_words:
-      # - 你可以的
+      - 你可以的
       - 你一定可以的
       - 祝你好运，陌生人
     # social
@@ -159,7 +159,7 @@ aside:
   # 文章目录
   toc:
     post: true
-    page: false
+    page: true
     vague: true
   # --------------------------- end ---------------------------
 
@@ -167,11 +167,11 @@ aside:
   # Tags
   # 标签
   tags:
-    enable: false
+    enable: true
     limit: 20 # Number of tags displayed
     # Highlighted tags
     highlight_list:
-      # - Hexo
+      - Hexo
   # --------------------------- end ---------------------------
 
   # --------------------------- start ---------------------------
@@ -222,7 +222,7 @@ page:
     # Default image when no cover is set
     # 未设置封面时的默认图片
     cover:
-      - /img/default.png # 默认图片 / default cover
+      # - /img/default.png # 默认图片 / default cover
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -236,7 +236,7 @@ post:
       - /img/default.avif # 默认图片 / default cover
     # Location
     # 位置
-    locate: China
+    locate: 长沙
     # Copyright
     # 版权
     copyright:
@@ -251,8 +251,8 @@ post:
   # Article Local AI
   # 文章本地AI
   ai:
-    enable: false
-    modelName: 小七 GPT
+    enable: true
+    modelName: GPT
   # Article meta information
   # 文章元信息
   meta:
@@ -264,14 +264,14 @@ post:
     updated: true
     # Location
     # 位置
-    locate: false
+    locate: true
     # Number of words
     # 字数
     wordcount: true
     # uv
-    readtime: false
+    readtime: true
     # pv
-    pv: false
+    pv: true
     # Comment count
     # 评论数
     comment: true
@@ -282,31 +282,31 @@ post:
     appreciators: /about/ # Reward page
     # Reward Title
     # 打赏标题
-    title: # Thanks for your appreciation. / 感谢您的赞赏
-    desc: # Because of your support, I realize the value of writing articles. / 由于您的支持，我才能够实现写作的价值。
+    title: 感谢您的赞赏 # Thanks for your appreciation. / 感谢您的赞赏
+    desc: 由于您的支持，我才能够实现写作的价值 # Because of your support, I realize the value of writing articles. / 由于您的支持，我才能够实现写作的价值。
     # Reward list
     # 打赏列表
     list:
-      # - name: Github Sponsor
-      #   qcode: https://s3.qjqq.cn/47/661ba900c4bc1.webp!color
-      #   url: https://github.com/sponsors/everfu
-      #   color: var(--efu-black)
+      - name: Github Sponsor
+        qcode: https://s3.qjqq.cn/47/661ba900c4bc1.webp!color
+        url: https://github.com/sponsors/everfu
+        color: var(--efu-black)
 
   # Share icon
   # 分享图标
   share:
-    enable: false
+    enable: true
     list:
-      # - qq
-      # - weibo
+      - qq
+      - weibo
       # - twitter
       # - facebook
       # - telegram
       # - whatsapp
       # - linkedin
-      # - link
-      # - qrcode
-  rss: # /atom.xml
+      - link
+      - qrcode
+  rss:  /atom.xml
   # Article reading progress
   # 文章封面取色
   covercolor:
@@ -322,7 +322,7 @@ post:
     desc: # Articles from Ever Fu. / 文章来自 Ever Fu # description
     button: # Button
       enable: true
-      name: # Learn more / 了解更多
+      name: 更多 # Learn more / 了解更多
       url: /about/
 # --------------------------- end ---------------------------
 
@@ -342,7 +342,7 @@ display_mode:
   type: auto
   # After opening, the dark mode will display the starry sky background
   # 开启后深色模式会显示星空背景
-  universe: false
+  universe: true
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -364,16 +364,16 @@ font:
 # When the user exits the page, modify the title
 # 当用户退出页面时，修改标题
 lure:
-  enable: false
-  jump: 404 Not Found
-  back: ヾ(≧∇≦*)ゝHey, hey, you fell for it.
+  enable: true
+  jump: 别走呀~
+  back: 欢迎回来~
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
 # Article expiration
 # 文章过期
 expire:
-  enable: false
+  enable: true
   time: 30 # days
   position: top # top / bottom
   text_prev: "This article expired "
@@ -393,7 +393,7 @@ index_post_list:
 # Related articles
 # 相关文章
 related_post:
-  enable: false
+  enable: true
   limit: 2
   # created: release date / updated: update date
   # created: 发布日期 / updated: 更新日期
@@ -410,18 +410,18 @@ right_menu:
   commentBarrage: false
   # Whether to display the browser's context menu when hold Ctrl key.
   # 是否在按住 Ctrl 键时显示浏览器右键菜单
-  ctrlOriginalMenu: false
+  ctrlOriginalMenu: true
   # Simplified and Traditional Chinese translation.
   # 简繁体转换
   translate: true
   # Custom list
   # 自定义列表
   custom_list:
-    # - name: 随机文章
-    #   click: toRandomPost()
-    #   id: menu-randomPost
-    #   class:
-    #   icon: fas fa-tower-broadcast
+    - name: 随机文章
+      click: toRandomPost()
+      id: menu-randomPost
+      class:
+      icon: fas fa-tower-broadcast
     # - name: 全部分类
     #   click: pjax.loadUrl('/categories/') # External links with window.open, pjax can not request cross-domain content.
     #   id:
@@ -470,11 +470,11 @@ typeit: false
 # Console
 # 控制台
 console:
-  enable: false
+  enable: true
   # Recent comments
   # 最新评论
   recentComment:
-    enable: false
+    enable: true
     # Cache time 1: 1 day / .5 : half a day
     # 缓存时间 1: 1天 / .5 : 半天
     storage: .2
@@ -515,11 +515,11 @@ footer:
   information:
     author: true # img url / false
     left:
-      # Github: https://github.com/everfu || fab fa-github # 名称: 链接 || 图标
-      # Mail: mailto:o@everfu.org || far fa-envelope
+      Github: https://github.com/everfu || fab fa-github # 名称: 链接 || 图标
+      Mail: mailto:o@everfu.org || far fa-envelope
     right:
-      # Bilibili: https://space.bilibili.com/1329819902 || fab fa-bilibili
-      # Douyin: https://v.douyin.com/iJsLc8jt/ || fab fa-tiktok
+      Bilibili: https://space.bilibili.com/1329819902 || fab fa-bilibili
+      Douyin: https://v.douyin.com/iJsLc8jt/ || fab fa-tiktok
   # 友情链接
   group:
     # 导航:
@@ -544,7 +544,7 @@ footer:
 
   # 页脚信息文字
   links:
-    - name: RSS
+    - name: YIC
       url: /atom.xml
     - name: License
       url: https://github.com/everfu/hexo-theme-solitude/blob/main/LICENSE
@@ -600,16 +600,16 @@ keyboard:
   list:
     - name: 关闭快捷菜单
       key: K
-    #   func: keyboard
-    # - name: 打开控制台
-    #   key: A
-    #   sco: showConsole
-    # - name: 播放/暂停音乐
-    #   key: M
-    #   sco: musicToggle
-    # - name: 打开友链
-    #   key: L
-    #   url: /links/
+      func: keyboard
+    - name: 打开控制台
+      key: A
+      sco: showConsole
+    - name: 播放/暂停音乐
+      key: M
+      sco: musicToggle
+    - name: 打开友链
+      key: L
+      url: /links/
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -653,7 +653,7 @@ highlight:
   expand: true
   # default: default / mac : apple terminal
   # default: 默认 / mac : 苹果终端
-  theme: default
+  theme: mac
   # default / solidity / dracula
   color: default
 # --------------------------- end ---------------------------
@@ -664,8 +664,8 @@ highlight:
 lightbox: true
 # warning: Please select any one, but cannot be turned on at the same time.
 # 警告: 请任选其一，但不能同时开启。
-fancybox: true # fancybox
-mediumZoom: false # mediumZoom
+fancybox: false # fancybox
+mediumZoom: true # mediumZoom
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -720,10 +720,10 @@ katex:
 # verification
 # 验证
 verify_site:
-  # - name: google-site-verification
-  #   content: xxxxxx
-  # - name: baidu-site-verification
-  #   content: xxxxxxx
+  - name: google-site-verification
+    content: xxxxxx
+  - name: baidu-site-verification
+    content: xxxxxxx
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -739,12 +739,12 @@ extends:
   # Insert in head
   # 插入到 head
   head:
-  #  - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
+   - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
 
   # Insert in body
   # 插入到 body
   body:
-  #  - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
+   - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -836,19 +836,19 @@ giscus:
 # --------------------------- start ---------------------------
 # Search
 search:
-  enable: false
-  type: # local / algolia / docsearch
+  enable: true
+  type:  # local / algolia / docsearch
   tags:
-    # - Solitude
-    # - Hexo
+    - Solitude
+    - Hexo
   # Algolia
   algolia:
-    # hits:
-    #   per_page: 6
+    hits:
+      per_page: 6
 
   # Local search
   local:
-    preload: false
+    preload: true
     CDN: # url: search.xml
 
   # DocSearch
@@ -876,7 +876,7 @@ music:
   # 是否自动播放
   mutex: true
   # 播放方式：list / random
-  order: list
+  order: random
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
