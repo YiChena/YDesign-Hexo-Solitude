@@ -96,6 +96,7 @@ hometop:
         color: "#df5b40"
   group:
     热门: /tags/Fire/ || fas fa-fire || linear-gradient(to right,#f65,#ffbf37)
+    摄影: /tags/Fire/ || fas fa-fire || linear-gradient(to right,#f65,#ffbf37)
   recommendList:
     enable: true
     sup: 置顶
@@ -131,12 +132,12 @@ aside:
   # 信息卡
   my_card:
     author:
-      img: /img/logo.png # url
+      img: https://ydesign.oss-cn-beijing.aliyuncs.com/logo-002.png # url
       sticker: # url, 24x24 size
     # 介绍 / Introduction
-    description: 只有迎风，风筝才能飞得更高。
-    # 内容 / Content
-    content: 这是我的博客 # 这是我的博客 / This is my Blog
+    description: 悲观者永远正确，乐观者正在前行
+    # 内容 / Content  
+    content: 技术如繁星之多，迭代如春笋涌出。而人的脑海始终无法储存这些大量的知识。所以需要一个平台来整理学习到的知识体系或记录生活的琐事。
     state:
       morning: ✨ 早上好，新的一天开始了
       noon: 🍲 午餐时间
@@ -144,7 +145,7 @@ aside:
       night: 早点休息
       goodnight: 晚安 😴
     witty_words:
-      - 你可以的
+      - 要主动去促进事情发生，不要坐等事情发生。
       - 你一定可以的
       - 祝你好运，陌生人
     # social
@@ -221,8 +222,8 @@ page:
   default:
     # Default image when no cover is set
     # 未设置封面时的默认图片
-    cover:
-      # - /img/default.png # 默认图片 / default cover
+    cover: 
+      - /img/default.png # 默认图片 / default cover
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -241,7 +242,8 @@ post:
     # 版权
     copyright:
       enable: true
-      author: /img/logo.png # url
+      author: https://ydesign.oss-cn-beijing.aliyuncs.com/logo.png
+ # url
       # License
       # 许可证
       license: CC BY-NC-SA 4.0
