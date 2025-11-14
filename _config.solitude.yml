@@ -15,8 +15,8 @@ nav:
   # 左侧盒子
   group:
    博客:  # name  
-     YDesign-Hexo: / || https://ydesign.oss-cn-beijing.aliyuncs.com/logo-003.png # name: url || icon
-     YDesign-VuePress: / || https://ydesign.oss-cn-beijing.aliyuncs.com/logo-003.png # name: url || icon
+     YDesign: / || https://ydesign.oss-cn-beijing.aliyuncs.com/logo-003.png # name: url || icon
+    #  YDesign-VuePress: / || https://ydesign.oss-cn-beijing.aliyuncs.com/logo-003.png # name: url || icon
    公众号:  # name
      YDesign: / || https://ydesign.oss-cn-beijing.aliyuncs.com/logo-003.png # name: url || icon
   # Menu
