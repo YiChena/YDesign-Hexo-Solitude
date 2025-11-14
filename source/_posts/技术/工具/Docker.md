@@ -2,7 +2,10 @@
 title: Docker
 date: 2022-10-01 15:10:56
 cover: https://ydesign.oss-cn-beijing.aliyuncs.com/DocKer.png
-tags:
+tags: 
+    - 技术
+    - 工具
+    - Docker
 ---
 
 # **Docker**

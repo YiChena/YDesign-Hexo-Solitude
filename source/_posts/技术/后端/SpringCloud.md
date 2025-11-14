@@ -2,7 +2,10 @@
 title: SpringCloud
 date: 2022-10-01 16:17:28
 cover: https://ydesign.oss-cn-beijing.aliyuncs.com/development.png
-tags:
+tags:  
+    - 技术
+    - Java
+    - Spring
 ---
 
 # SpringCloud

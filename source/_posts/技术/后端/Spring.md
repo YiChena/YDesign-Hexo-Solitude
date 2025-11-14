@@ -2,7 +2,10 @@
 title: Spring
 date: 2022-10-01 16:17:28
 cover: https://ydesign.oss-cn-beijing.aliyuncs.com/Spring.png
-tags:
+tags:  
+    - 技术
+    - Java
+    - Spring
 ---
 
 # Spring

@@ -2,7 +2,12 @@
 title: SSM 整合
 date: 2022-10-01 16:17:28
 cover: https://ydesign.oss-cn-beijing.aliyuncs.com/ssm.png
-tags:
+categories: 
+    - 我的项目
+tags:  
+    - 技术
+    - Java
+    - Spring
 ---
 
 # SSM 整合

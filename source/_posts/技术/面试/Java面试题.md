@@ -1,8 +1,11 @@
 ---
 title: Java面试题
-date: 2022-10-01 16:17:28
+date: 2022-11-09 16:17:28
 cover: https://ydesign.oss-cn-beijing.aliyuncs.com/Java%E9%9D%A2%E8%AF%95%E9%A2%98.png
-tags:
+tags:  
+    - 技术
+    - Java
+    - 面试题
 ---
 
 # Java面试题

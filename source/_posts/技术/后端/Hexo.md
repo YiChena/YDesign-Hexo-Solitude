@@ -2,7 +2,12 @@
 title: Hexo
 date: 2022-10-01 16:17:28
 cover: https://ydesign.oss-cn-beijing.aliyuncs.com/Hexo.png
-tags:
+# type: "技术"
+categories:
+    - 技术教程
+tags:  
+    - 技术
+    - Hexo
 ---
 
 # Hexo
