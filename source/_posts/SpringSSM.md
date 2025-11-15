@@ -1,6 +1,6 @@
 ---
-title: SSM 整合
-date: 2022-10-01 16:17:28
+title: SpringSSM 整合
+date: 2020-11-09 00:00:00
 cover: https://ydesign.oss-cn-beijing.aliyuncs.com/ssm.png
 categories: 
     - 我的项目

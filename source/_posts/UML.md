@@ -1,6 +1,6 @@
 ---
 title: UML
-date: 2022-10-01 16:17:28
+date: 2020-11-14 00:00:00
 cover: https://ydesign.oss-cn-beijing.aliyuncs.com/UML.png
 tags:  
     - 技术

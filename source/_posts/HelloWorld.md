@@ -1,6 +1,6 @@
 ---
 title: HelloWorld
-date: 2020-10-01 09:10:56
+date: 2020-10-01 00:00:00
 cover: https://ydesign.oss-cn-beijing.aliyuncs.com/HelloWorld.png
 categories:
     - 技术教程
