@@ -58,7 +58,7 @@ hometop:
     desc:
       - 要主动去促进事情发生，不要坐等事情发生。 # 小字
       - 学如逆水行舟，不进则退。
-      - 业精于勤荒于嬉，行成于思毁于随。
+      # - 业精于勤荒于嬉，行成于思毁于随。
     icon:
       HTML: # name
         img: https://i.postimg.cc/vBWVnY8q/html.png # url
@@ -78,9 +78,9 @@ hometop:
       Git:
         img: https://i.postimg.cc/nhgjwjCS/git.png
         color: "#df5b40"
-  group:
-    技术: /about/ || fab fa-github || linear-gradient(to right,#f65,#ffbf37)
-    生活: /about/ || fas fa-bicycle || linear-gradient(to right,#f65,#ffbf37)
+  group: # fa-chrome
+    技术: /about/ || fab fa-github fa-pulse || linear-gradient(to right,#f65,#ffbf37)
+    生活: /about/ || fas fa-bicycle || linear-gradient(to right,#61F3AC,#00CCBB)
   recommendList:
     enable: true
     sup: 导读
@@ -117,7 +117,7 @@ aside:
   my_card:
     author:
       img: https://ydesign.oss-cn-beijing.aliyuncs.com/logo-002.png # url
-      sticker: # url, 24x24 size
+      sticker: https://ydesign.oss-cn-beijing.aliyuncs.com/emoji-%E7%9C%A8%E7%9C%BC.gif #24x24 size
     # 介绍 / Introduction
     description: 悲观者永远正确，乐观者正在前行
     # 内容 / Content  
@@ -136,7 +136,7 @@ aside:
     # 社交信息图标
     information:
      Github: https://github.com/YiChena || fab fa-github # Name: link || icon
-    #  Bilibili: https://space.bilibili.com/1329819902 || fab fa-bilibili
+     Bilibili: https://space.bilibili.com || fab fa-bilibili
   # --------------------------- end ---------------------------
 
   # --------------------------- start ---------------------------
@@ -218,7 +218,7 @@ post:
     # Default image when no cover is set
     # 未设置封面时的默认图片
     cover:
-      - /img/default.avif # 默认图片 / default cover
+      - https://ydesign.oss-cn-beijing.aliyuncs.com/HelloWorld.png # 默认图片 / default cover
     # Location
     # 位置
     locate: 长沙
@@ -273,7 +273,7 @@ post:
     # Reward list
     # 打赏列表
     list:
-      - name: Github Sponsor
+      - name: 感谢您的赞赏  
         qcode: https://s3.qjqq.cn/47/661ba900c4bc1.webp!color
         url: https://github.com/sponsors/everfu
         color: var(--efu-black)
@@ -509,37 +509,45 @@ footer:
   # 友情链接
   group:
     # 导航:
-      基础: 
-        导读: /guide/
-        关于: /about/
+      导航: 
+        公众号: /
+      服务: 
+        在线工具: /
+      支持: 
+        Hexo: https://hexo.io/zh-cn/
+        Solitude 主题: https://github.com/everfu/hexo-theme-solitude
+        致谢打赏: /links/
       协议: 
-        隐私协议: /about/
-        版权协议: /about/
+        免责声明: /Disclaimers/
+        评论协议: /CommentAgreement/
+        隐私协议: /PrivacyPolicy/
+        版权协议: /CopyrightAgreement/
+        Cookies: /Cookies/
   # 随机友链
   randomlink: false # 随机友链
 
   # 备案
   beian:
     - name: 湘公网安备 号
-      icon: https://beian.mps.gov.cn/img/logo01.dd7ff50e.png
       url: https://beian.mps.gov.cn/#/query/webSearch
+      icon: https://beian.mps.gov.cn/img/logo01.dd7ff50e.png
     - name: 湘ICP备 号
       url: https://beian.miit.gov.cn/
-      icon: https://beian.mps.gov.cn/img/logo01.dd7ff50e.png
+      icon: https://beian.miit.gov.cn/favicon.ico
   # 页脚信息文字
   links:
     - name: YIC
-      url: /atom.xml
+      url: /
     - name: License
-      url: https://github.com/everfu/hexo-theme-solitude/blob/main/LICENSE
+      url: /
       icon:
         - fas fa-copyright
         - fab fa-creative-commons-by
         - fab fa-creative-commons-nc
         - fab fa-creative-commons-nd
     - name: boringbay
-      url: https://boringbay.com/
-      img: https://boringbay.com/api/badge/www.efu.me
+      url: /
+      img: https://ydesign.oss-cn-beijing.aliyuncs.com/logo-003.png
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------

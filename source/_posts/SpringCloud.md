@@ -122,7 +122,3 @@ Nacos中的配置文件变更后，微服务无需重启就可以感知。不过
 - 服务名称.yaml userservice.yaml
 
 无论profile如何变化userservice.yaml这个文件一定会加载，因此多环境共享配置可以写入这个文件
-
-
-
-### Nocos集群搭建

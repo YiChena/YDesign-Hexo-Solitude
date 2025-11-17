@@ -9,12 +9,7 @@ tags:
 ---
 
 # **Docker**
-
-----
-
 ### **Docker的概述**
-
----
 
 <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fboke.yigujin.cn%2Fimg%2F2019%2F190128-docker.png&refer=http%3A%2F%2Fboke.yigujin.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1629890267&t=a1a511b3e4313239f168cd8baa6217ff" alt="点击查看源网页" style="zoom:150%;" />
 
@@ -36,7 +31,7 @@ docker中有这样几个概念：
 
 - **dockerfile**       构建进行的文本文件，对镜像进行操作
 - **image**              docker镜像，相当于安装包
-- **container **       docker 容器，相当于运行的程序
+- **container**       docker 容器，相当于运行的程序
 - **仓库（Repository）**：类似于代码仓库，这里是镜像仓库，是Docker用来集中存放镜像文件的地方
 
 实际上你可以简单的把image(镜像)理解为**可执行程序（程序安装包）**，container(容器)就是运行起来的进程(运行起来的任务)。
@@ -55,9 +50,6 @@ docker中有这样几个概念：
 
 
 ### **Docker基本组成**
-
-<img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fi.loli.net%2F2020%2F08%2F01%2F9VSxDTPkYJ5n6eZ.png&refer=http%3A%2F%2Fi.loli.net&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1629803170&t=e2dd4969ba04481a529432712ffcb5c9" alt="img" style="zoom:150%;" />
-
 #### **docker执行原理**
 
 **通过客户端输入相应的命令，控制服务器端运行的过程**
@@ -74,15 +66,11 @@ docker中有这样几个概念：
 
 当我们写完dockerfile交给docker“编译”时使用**docker build**这个命令，那么client在接收到请求后转发给docker daemon，接着docker daemon根据dockerfile创建出“可执行程序”的image(镜像)
 
-<img src="C:\Users\lhw\AppData\Roaming\Typora\typora-user-images\image-20210726194313700.png" alt="image-20210726194313700" style="zoom:150%;" />
-
 ##### **docker run**
 
 **将镜像加载进内存，将镜像执行成容器**
 
 有了“可执行程序”image后就可以运行程序了，接下来使用命令**docker run**，docker daemon接收到该命令后找到具体的image，然后**加载到内存开始执行**，image执行起来就是所谓的container(容器)
-
-<img src="C:\Users\lhw\AppData\Roaming\Typora\typora-user-images\image-20210726194131560.png" alt="image-20210726194131560" style="zoom:150%;" />
 
 docker build和docker run是两个最核心的命令，会用这两个命令基本上docker就可以用起来了
 
@@ -91,8 +79,6 @@ docker build和docker run是两个最核心的命令，会用这两个命令基�
 **向仓库请求下载镜像文件**
 
 用户通过docker client(客户端)发送命令，docker daemon(守护线程)接收到命令后向docker registry(仓库)发送image下载请求，下载后存放在本地，这样我们就可以使用image
-
-<img src="C:\Users\lhw\AppData\Roaming\Typora\typora-user-images\image-20210726233005020.png" alt="image-20210726233005020" style="zoom: 200%;" />
 
 这里的仓库有公开仓库和本地仓库
 
@@ -114,12 +100,7 @@ docker基于Linux内核提供这样几项功能实现的：
 
 
 
-----
-
 ### **Docker的安装**
-
----
-
 
 
 #### **Win安装Docker**
@@ -287,20 +268,6 @@ sudo systemctl disable containerd.service
 
 docker默认镜像在国外，国内使用很慢这里直接换成阿里云镜像
 
-**操作**
-
-![image-20200616154429105](D:\桌面\狂神说笔记\crazy-god-says-java-master\37、docker\Docker.assets\image-20200616154429105.png)
-
-![image-20200616154455964](D:\桌面\狂神说笔记\crazy-god-says-java-master\37、docker\Docker.assets\image-20200616154455964.png)
-
-控制台搜索 容器镜像服务
-
-![image-20200616155201285](D:\桌面\狂神说笔记\crazy-god-says-java-master\37、docker\Docker.assets\image-20200616155201285.png)
-
-找到加速地址
-
-![image-20200616155649476](D:\桌面\狂神说笔记\crazy-god-says-java-master\37、docker\Docker.assets\image-20200616155649476.png)
-
 ```
 sudo mkdir -p /etc/docker # 创建一个陌路
 sudo tee /etc/docker/daemon.json <<-'EOF'
@@ -313,11 +280,6 @@ sudo systemctl daemon-reload # 重启服务
 sudo systemctl restart docker # 重启docker
 ```
 
-![image-20200616160315298](D:\桌面\狂神说笔记\crazy-god-says-java-master\37、docker\Docker.assets\image-20200616160315298.png)
-
-
-
----
 
 ### **Docker常用命令**
 
@@ -332,7 +294,6 @@ docker 命令  --help   #帮助命令，查看该命令的使用
 
 帮助文档:查看所有命令：https://docs.docker.com/reference
 
----
 
 #### **镜像命令**
 
@@ -341,6 +302,7 @@ docker 命令  --help   #帮助命令，查看该命令的使用
 **所有进行命令都可以查询Docker官网 查看**
 
 镜像命令帮助文档:https://docs.docker.com/engine/reference/commandline/images/
+
 
 ##### **查询镜像**
 
@@ -1158,13 +1120,11 @@ Commercial support is available at
 </html>
 ```
 
-<img src="C:\Users\lhw\AppData\Roaming\Typora\typora-user-images\image-20210725205304379.png" alt="image-20210725205304379" style="zoom:150%;" />
 
 **端口暴露**
 
 了解端口暴露问题：就是通过映射方式，外部访问端口与内部端口连接，在不影响内部端口的情况下，从而达到操作内部端口作用
 
-<img src="C:\Users\lhw\AppData\Roaming\Typora\typora-user-images\image-20210725203739810.png" alt、 2="image-20210725203739810" style="zoom:150%;" />
 
 **进入nginx容器**
 
@@ -1282,22 +1242,3 @@ curl localhost:9200
 #赶紧关闭，内存限制，修改配置文件 -e 环境配置修改
 docker run -d --name elasticsearch  -p 9200:9200 -p 9300:9300 -e  ES_JAVA_OPTS="-Xms64m -Xmx512m" elasticsearch:7.6.2
 ```
-
-
-
-使用Kibanna连接es ? 思考网络如何才能连接过去！！！
-
-![image-20210726174622292](C:\Users\lhw\AppData\Roaming\Typora\typora-user-images\image-20210726174622292.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
