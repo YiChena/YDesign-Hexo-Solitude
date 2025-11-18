@@ -22,19 +22,22 @@ nav:
   # Menu
   # 菜单
   menu:
-    首页: / # name: link
-    文章: # name
+    # 首页: / # name: link
+    文库: # name
       归档: /archives/ || fas fa-folder-closed # item name: link || icon
       分类: /categories/ || fas fa-clone
       标签: /tags/ || fas fa-tags
     友链:
       # 朋友圈: /moments/ || fas fa-wifi
       友情链接: /links/ || fas fa-user-group
-      # 宝藏博主: javascript:travelling() || fas fa-gift
+      宝藏博主: javascript:travelling() || fas fa-gift
     我的:
-      关于: /about/ || fas fa-user
-      # 装备: /kit/ || fas fa-laptop
-      # 音乐馆: /music/ || fas fa-music
+      装备: /kit/ || fas fa-laptop
+      音乐馆: /music/ || fas fa-music
+    关于:
+      关于本站: /about/ || fas fa-user
+      
+      
 
   # Right button
   # 右侧按钮
@@ -44,7 +47,7 @@ nav:
      - name: 开往 # 名字
        url: https://www.travellings.cn/go.html # 跳转链接
        icon: fas fa-train # 图标
-       onclick: # 点击事件
+       onclick:  # 点击事件
        id: travellings_button # id
 # --------------------------- end ---------------------------
 
@@ -130,8 +133,8 @@ aside:
       goodnight: 晚安 😴
     witty_words:
       - 祝你好运 ~
-      - 你一定可以的
-      - 你可以的
+      - 你一定可以的 
+      - 你可以的 
     # social
     # 社交信息图标
     information:
@@ -156,7 +159,7 @@ aside:
     limit: 20 # Number of tags displayed
     # Highlighted tags
     highlight_list:
-      - Hexo
+      # - Hexo
   # --------------------------- end ---------------------------
 
   # --------------------------- start ---------------------------
@@ -265,7 +268,7 @@ post:
   # 打赏
   award:
     enable: true
-    appreciators: /about/ # Reward page
+    appreciators: /guide/ # Reward page
     # Reward Title
     # 打赏标题
     title: 感谢您的赞赏 # Thanks for your appreciation. / 感谢您的赞赏
@@ -309,7 +312,7 @@ post:
     button: # Button
       enable: true
       name: 更多 # Learn more / 了解更多
-      url: /about/
+      url: /guide/
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -408,16 +411,16 @@ right_menu:
       id: menu-randomPost
       class:
       icon: fas fa-tower-broadcast
-    # - name: 全部分类
-    #   click: pjax.loadUrl('/categories/') # External links with window.open, pjax can not request cross-domain content.
-    #   id:
-    #   class:
-    #   icon: fas fa-clone
-    # - name: 全部标签
-    #   click: pjax.loadUrl('/tags/')
-    #   id:
-    #   class:
-    #   icon: fas fa-tags
+    - name: 全部分类
+      click: pjax.loadUrl('/categories/') # External links with window.open, pjax can not request cross-domain content.
+      id:
+      class:
+      icon: fas fa-clone
+    - name: 全部标签
+      click: pjax.loadUrl('/tags/')
+      id:
+      class:
+      icon: fas fa-tags
 # --------------------------- end -----------------------
 
 # --------------------------- start ---------------------------
@@ -437,17 +440,17 @@ copy:
 
 # --------------------------- start ---------------------------
 # Mermaid
-mermaid: false
+mermaid: true
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
 # Chart.js
-chart: false
+chart: true
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
 # typeit
-typeit: false
+typeit: true
 # --------------------------- end ---------------------------
 
 ### Extended configuration
@@ -501,11 +504,11 @@ footer:
   information:
     author: true # img url / false
     left:
-      Github: https://github.com/everfu || fab fa-github # 名称: 链接 || 图标
-      Mail: mailto:o@everfu.org || far fa-envelope
+      Github: https://github.com/YiChena || fab fa-github # 名称: 链接 || 图标
+      Mail: yichencv@163.com || far fa-envelope
     right:
-      Bilibili: https://space.bilibili.com/1329819902 || fab fa-bilibili
-      Douyin: https://v.douyin.com/iJsLc8jt/ || fab fa-tiktok
+      Bilibili: https://space.bilibili.com || fab fa-bilibili
+      Douyin: https://v.douyin.com || fab fa-tiktok
   # 友情链接
   group:
     # 导航:
@@ -524,7 +527,7 @@ footer:
         版权协议: /CopyrightAgreement/
         Cookies: /Cookies/
   # 随机友链
-  randomlink: false # 随机友链
+  randomlink: true # 随机友链
 
   # 备案
   beian:
@@ -623,7 +626,7 @@ loading:
   fullpage: false
   # Loading icon, default is siteicon
   # 加载图标，不写默认siteicon
-  favicon: /img/favicon.png
+  favicon: https://ydesign.oss-cn-beijing.aliyuncs.com/logoIco.ico
   # Pace loading
   # Pace 加载
   pace: true
@@ -656,8 +659,8 @@ highlight:
 lightbox: true
 # warning: Please select any one, but cannot be turned on at the same time.
 # 警告: 请任选其一，但不能同时开启。
-fancybox: false # fancybox
-mediumZoom: true # mediumZoom
+fancybox: true # fancybox
+mediumZoom: false # mediumZoom
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -691,7 +694,10 @@ OpenGraph:
 # 字数统计
 # warning: Please install the hexo-wordcount plugin first.
 # 警告: 请先安装 hexo-wordcount 插件。
-wordcount: false
+wordcount: true # 设置文章字数统计为 true.
+# totalCount: true # 设置站点文章总字数统计为 true.
+# min2read: true # 阅读时长.
+# readCount: true # 阅读次数.
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -746,11 +752,18 @@ pwa:
   enable: true
   manifest: /manifest.json # manifest.json
   theme_color: "#006a73" # Theme color
-  mask_icon: /img/pwa/favicon.png # Mask icon
-  apple_touch_icon: /img/pwa/favicon.png # Apple touch icon
+  mask_icon: https://ydesign.oss-cn-beijing.aliyuncs.com/logoIco.ico # Mask icon
+  apple_touch_icon: https://ydesign.oss-cn-beijing.aliyuncs.com/logoIco.ico # Apple touch icon
   bookmark_icon: https://ydesign.oss-cn-beijing.aliyuncs.com/logoIco.ico # Bookmark icon
   favicon_32_32: https://ydesign.oss-cn-beijing.aliyuncs.com/logoIco.ico # 32x32 icon
   favicon_16_16: https://ydesign.oss-cn-beijing.aliyuncs.com/logoIco.ico # 16x16 icon
+
+swpp:
+  # 是否启用插件
+  enable: false
+  # 是否在发布前自动执行脚本
+  # auto_exec: true
+
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -759,7 +772,7 @@ pwa:
 comment:
   # Which commenting system to use(e.g. waline or waline,twikoo)
   # 使用哪个评论系统（例如： waline or waline,twikoo）
-  use: # waline, twikoo, valine, artalk, giscus # Up to two comment systems can be turned on at the same time
+  use: twikoo # waline, twikoo, valine, artalk, giscus # Up to two comment systems can be turned on at the same time
   # Whether to display the hot comment switch.
   # 是否显示热门评论开关
   commentBarrage: false
@@ -790,7 +803,7 @@ comment:
     limit: 5 # 评论数 / Number of comments
 # Twikoo: https://solitude.js.org/configuration/comment/twikoo
 twikoo: # https://twikoo.js.org/
-  envId: # url: https://twikoo.sondy.top/
+  envId: https://twikoo-comment.holyfox.net/  # url: https://twikoo.sondy.top/
   region: # Environment locale, default is ap-shanghai, Tencent cloud environment fill ap-shanghai or ap-guangzhou; Vercel environment do not fill the.
   style: true # Use custom styles when turned on
   accessToken: # AccessToken
@@ -807,7 +820,7 @@ valine:
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   avatar: # https://valine.js.org/avatar.html
   visitor: false
-  style: true # Use custom styles when turned on
+  style: false # Use custom styles when turned on
   option: # options list
 # Artalk: https://solitude.js.org/configuration/comment/artalk
 artalk:
@@ -840,7 +853,7 @@ search:
 
   # Local search
   local:
-    preload: true
+    preload: false
     CDN: # url: search.xml
 
   # DocSearch
@@ -858,7 +871,8 @@ search:
 music:
   enable: true
   # 歌单 ID / 单曲 ID
-  id: 5144842535
+  # id: 5144842535
+  id: 7731975278
   # 服务商：netease / qq / xiami / kugou / baidu
   server: netease
   # 类型：playlist / song
@@ -875,7 +889,7 @@ music:
 # Danmaku Page
 # 弹幕留言页面
 envelope:
-  enable: false
+  enable: true
   line: 10 # 显示行数
   speed: 20 # 播放速度
   hover: true # 鼠标悬停暂停
@@ -887,8 +901,8 @@ envelope:
 # Brevity Page
 # 即刻短文
 brevity:
-  enable: false
-  home_mini: false
+  enable: true
+  home_mini: true
   music: false
   page: /essay/
   style: 1
@@ -899,7 +913,7 @@ brevity:
 # Recent comments Page
 # 最近评论页面
 recent_comments:
-  enable: false
+  enable: true
   limit: 50 # ⚠️waline 仅支持最大50条评论 / ⚠️waline only supports a maximum of 50 comments
   cache: 0.2 # 1 = 1天 / 1 = 1 day
   page: /recentcomments/ # 最近评论页面 / recent comments page
@@ -987,3 +1001,23 @@ CDN:
     # waline_css:
     # waline_js:
 # --------------------------- end ---------------------------
+
+
+# 追番插件
+# https://github.com/HCLonely/hexo-bilibili-bangumi
+bangumi: # 追番设置
+  enable: true
+  source: bili
+  path:
+  vmid: 527260354
+  title: "追番列表"
+  quote: "生命不息，追番不止！"
+  show: 1
+  lazyload: false
+  loading:
+  showMyComment: false
+  pagination: false
+  extra_options:
+    top_img: false
+    lazyload:
+      enable: false

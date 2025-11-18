@@ -1,0 +1,37 @@
+- content: 每天都是绝版呢 😊
+  date: 2025-01-01 00:00
+- content: 凡人修仙传
+  date: 2025-01-01 00:00
+  video:
+    bilibili: ss28747
+# - content: 外链视频短文
+#   date: 2025-01-01 00:00
+#   video:
+#     player: # 视频直链
+
+
+# - content: 图片短文（无图片描述）
+#   date: 2025-01-01 00:00
+#   image:
+#     - https://bu.dusays.com/2025/08/12/689a2b8c80875.png
+#     - https://bu.dusays.com/2025/08/12/689a2b8c80875.png
+
+- content: 建站五周年
+  date: 2025-10-01 00:00
+  image:
+    - url: https://ydesign.oss-cn-beijing.aliyuncs.com/logo.png
+      alt: YDesign
+
+- content: # 音乐短文
+  date: 2025-11-17 00:00
+  aplayer:
+    server: netease # 音乐服务商，如netease
+    id: 65536 # 单曲id，不了解具体查看方法建议询问搜索引擎
+
+# - content: 链接短文
+#   date: 2025-01-01 00:00
+#   link: 链接
+
+- content: ...
+  date: 2025-01-01 00:00
+  location: 湖南省 长沙市

@@ -1,0 +1,203 @@
+# 悬浮标签模块
+authorinfo:
+  leftTags:
+    - 🤖️ 数码科技爱好者
+    - 🏠 智能家居小能手
+    - 🔍 分享与热心帮助
+  rightTags:
+    - 脚踏实地行动派 🏃
+    - 团队小组发动机 🧱
+    - 壮汉人狠话不多 💢
+  image: https://ydesign.oss-cn-beijing.aliyuncs.com/logo.png
+
+
+# 标题
+title: 关于本站
+
+# 介绍块
+# 这个模块必须写完整，如果不需要可以不写
+contentinfo: # 顶部个人信息展示
+  sup: 你好，很高兴认识你👋
+  name: 我叫 YiChen # 名称
+  title: 是一名独立开发者 # 介绍
+  tip: 追求
+  slogan: 源于<br>热爱而去创造
+  mask:
+    - 优秀的产品
+    - 出色的设计
+    - 高效的编程
+    - 人性化的用户体验
+
+# 技能图标轮播块
+# 此模块和生涯模块在一行，如不写则生涯模块单独占满一行。
+# 主要就是 tags 中的 img 和 icon 两种，其中 img 是图片地址，icon 是图标名称，你可以在 Skill Icons 中找到图标名称，你也可以自己寻找优质的图片图标。
+skills: # 根据需求添加
+  title: 技能
+  subtitle: 开启创造力
+  tags:
+    - title: Java
+      color: "#fff"
+      icon: fab fa-java
+    - title: Docker
+      color: "#57b6e6"
+      icon: fab fa-docker
+    - title: Node
+      color: "#333"
+      icon: fab fa-node
+    - title: Vue
+      color: "#b8f0ae"
+      icon: fab fa-vuejs
+    - title: JS
+      color: "#f7cb4f"
+      icon: fab fa-js
+    - title: HTML
+      color: "#e9572b"
+      icon: fab fa-html5
+    - title: Git
+      color: "#df5b40"
+      icon: fab fa-git
+
+# 生涯模块
+# 生涯模块和技能图标轮播模块在一行，如不写则技能图标轮播模块单独占满一行。
+careers:
+  title: 建站
+  subtitle: 無限進步
+  items:
+    - school: 2020年10月01日
+      major: YDesign 建站
+      color: "#357ef5"
+  # image: https://cdn.lightxi.com/cloudreve/uploads/2025/07/31/y5BrUhFv_67a216483c354.webp
+
+# 性格模块
+# personalities:
+#   tips: 性格
+#   title: 提倡者
+#   color: "#56a178"
+#   type: INFJ-T
+#   image: https://cdn.lightxi.com/cloudreve/uploads/2025/07/31/4jR76Exr_enfj.svg
+#   link: https://www.16personalities.com/
+#   linkText: 16personalities
+#   typeLink: https://www.16personalities.com/ch/infj-%E4%BA%BA%E6%A0%BC
+#   typeName: 提倡者
+#   myphoto: https://blog.xiowo.net/img/avatar.png
+
+# 座右铭
+motto:
+  title: 座右铭
+  prefix: 要主动去促进事情发生
+  content: 不要坐等事情发生
+
+# 特长模块
+expertise:
+  title: 特长
+  prefix: 开发 摄影 折腾
+  specialist: 专家
+  content: 学习 摆烂 
+  level: MAX
+
+# 游戏模块
+# 这个模块可以写多个，但最好不要超过 4 个。
+# game:
+#   - title: 游戏爱好
+#     img: https://solitude.js.org/example.png
+#     subtitle: APEX LEGENDS
+#     box_shadow: "0 -69px 203px 11px #04120f inset"
+#     # icon_group:
+#     #   - https://7.isyangs.cn/66/6738b472ce11f-66.webp
+#     #   - https://7.isyangs.cn/66/6738b48045a5b-66.webp
+#     tips_left: C位
+#     tips_right: ID Wleelw
+#   - title: 游戏爱好
+#     img: https://solitude.js.org/example.png
+#     subtitle: 精灵与萤火意志
+#     box_shadow: "0 -69px 203px 11px #415dc9 inset"
+#     tips_right: "跑图大师"
+
+# 爱好模块
+# likes:
+#   - type: "comic"
+#     tips: 爱好番剧 # 右上角提示
+#     title: 追番 # 标题
+#     subtips: "科幻、动漫、喜剧" # 左下小字，可不要
+#     list: # 最好就是五个或以上，相信你们肯定没那么少的。
+#       - name: 你的名字 # 动漫或影视名
+#         href: https://movie.douban.com/subject/26683290/ # B站或豆瓣某个位置
+#         cover: https://s3.qjqq.cn/47/674c6e226855e.png!water # 封面图
+#       - name: 四月是你的谎言
+#         href: https://www.bilibili.com/bangumi/media/md1699
+#         cover: https://s3.qjqq.cn/47/674c6e226855e.png!water
+#       - name: 流浪地球2
+#         href: https://movie.douban.com/subject/35267208/
+#         cover: https://s3.qjqq.cn/47/674c6e226855e.png!water
+#       - name: 花束般的恋爱
+#         href: https://movie.douban.com/subject/34874432/
+#         cover: https://s3.qjqq.cn/47/674c6e226855e.png!water
+#       - name: 天气之子
+#         href: https://movie.douban.com/subject/30402296/
+#         cover: https://s3.qjqq.cn/47/674c6e226855e.png!water
+#     button: true # false 可以关闭右边按钮
+#     button_link: "/about/" # 跳转路径
+#     button_text: "观看记录" # 按钮文字
+#   - type: like-technology
+#     bg: https://solitude.js.org/example.png
+#     tips: 关注偏好
+#     title: 数理化
+#     subtips: 理工男
+#   - type: like-music
+#     bg: https://cdn.lightxi.com/cloudreve/uploads/2025/07/31/4ee6GcaT_43ed444540c635ee869d58067ece8452.jpg
+#     tips: 音乐偏好
+#     title: 民谣、古典、轻音乐
+#     subtips: 跟 YiChen 一起欣赏更多音乐
+#     button: true
+#     button_text: 更多推荐
+#     button_link: /music/
+
+# 网站统计数据展示模块
+tj: # 统计
+  provider: 51la # 值为 51la（51la网站统计）或 custom（自建统计）
+  url: https://v6.51.la/report/daily?comId=3106894 # 需要到51la官网注册自行获取 or 自行搭建 Heo 的 百度统计项目，填写访问地址即可
+  img: https://i.p-i.vip/33/20250725-6883987819a97.webp # 背景
+  desc: 本站采用自建数据统计
+
+# 个人信息模块
+oneself: # 按需填写
+  location: 湖南省 长沙市 # 所在位置
+  birthYear: 2002 # 生日
+  university: 专业 # 毕业学校
+  major: 软件工程 # 专业
+  occupation: 独立开发者 # 职位
+  map: # 你所在位置的地图
+    light: https://ydesign.oss-cn-beijing.aliyuncs.com/%E5%9C%B0%E5%9B%BE-%E7%99%BD%E5%A4%A9.png # 白天
+    dark: https://ydesign.oss-cn-beijing.aliyuncs.com/%E5%9C%B0%E5%9B%BE-%E7%99%BD%E5%A4%A9.png # 夜晚
+
+# 自定义
+cause:
+  tip: 心路历程
+  title: 为什么建站？
+  content:
+    <br>将所学记录，分享<b>技术</b>。
+    <br><b>技术</b>如繁星之多，迭代如春笋涌出。而人的脑海无法储存这些大量的<b>知识</b>。所以需要一个平台来整理学习到的<b>知识体系</b>或者<b>记录生活</b>的琐事。
+
+# 十年之约
+tenyear:
+  tips: 十年之约
+  title: # 一个人的寂寞，一群人的狂欢。
+  start: 2022-02-13
+  end: 2032-02-13
+
+# 打赏列表
+award:
+  enable: true
+  description: 感谢赞赏的人，因为你们，让我感受到写博客这件事情能够给你们创造了价值。这会让我在这条路上走得更远。
+  tips: 总金额：¥ {sum}，将全部用于博客的维护和更新。 # 必须带 {sum}，否则无法显示总金额
+rewardList: # 底部捐赠
+  - name: "🌽"
+    money: 100
+    time: 2025-08-29
+    icon: fab fa-weixin
+    color: "#09bb07"
+  - name: "NWR"
+    money: 100
+    time: 2025-11-17
+    icon: fab fa-alipay 
+    color: "#1677FF"
