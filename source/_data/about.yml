@@ -12,7 +12,7 @@ authorinfo:
 
 
 # 标题
-title: # 关于本站
+title: 关于本站
 
 # 介绍块
 # 这个模块必须写完整，如果不需要可以不写
@@ -186,7 +186,7 @@ oneself: # 按需填写
 # 十年之约
 tenyear:
   tips: 建站十年
-  title: # 一个人的寂寞，一群人的狂欢。
+  title: 本站于2020年10月01日建站至今
   start: 2020-10-01
   end: 2030-10-01
 
@@ -197,12 +197,12 @@ award:
   tips: 总金额：¥ {sum}，将全部用于博客的维护和更新。 # 必须带 {sum}，否则无法显示总金额
 rewardList: # 底部捐赠
   - name: "NWR"
-    money: 66.66
+    money: 100
     time: 2025-08-29
     icon: fab fa-weixin
     color: "#09bb07"
   - name: "🌽"
-    money: 100
+    money: 66.66
     time: 2025-11-17
     icon: fab fa-alipay 
     color: "#1677FF"

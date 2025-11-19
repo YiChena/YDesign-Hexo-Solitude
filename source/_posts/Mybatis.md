@@ -1,5 +1,5 @@
 ---
-title: Mybatis
+title: 学习笔记：Mybatis
 date: 2020-11-08 00:00:00
 cover: https://ydesign.oss-cn-beijing.aliyuncs.com/Mybatis.png
 tags:  

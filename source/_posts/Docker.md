@@ -1,5 +1,5 @@
 ---
-title: Docker
+title: 学习笔记：Docker
 date: 2020-11-13 00:00:00
 cover: https://ydesign.oss-cn-beijing.aliyuncs.com/DocKer.png
 tags: 
@@ -10,8 +10,6 @@ tags:
 
 # **Docker**
 ### **Docker的概述**
-
-<img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fboke.yigujin.cn%2Fimg%2F2019%2F190128-docker.png&refer=http%3A%2F%2Fboke.yigujin.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1629890267&t=a1a511b3e4313239f168cd8baa6217ff" alt="点击查看源网页" style="zoom:150%;" />
 
 #### **什么是Docker**
 

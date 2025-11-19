@@ -1,5 +1,5 @@
 ---
-title: SpringBoot
+title: 学习笔记：SpringBoot
 date: 2020-11-10 00:00:00
 cover: https://ydesign.oss-cn-beijing.aliyuncs.com/SpringBoot.png
 tags:  

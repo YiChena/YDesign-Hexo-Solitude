@@ -1,5 +1,5 @@
 ---
-title: SpringSSM 整合
+title: 学习笔记：SpringSSM 整合
 date: 2020-11-09 00:00:00
 cover: https://ydesign.oss-cn-beijing.aliyuncs.com/ssm.png
 categories: 

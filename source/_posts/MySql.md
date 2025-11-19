@@ -1,5 +1,5 @@
 ---
-title: MySql
+title: 学习笔记：MySql
 date: 2020-11-04 00:00:00
 cover: https://ydesign.oss-cn-beijing.aliyuncs.com/MySql.png
 tags:  

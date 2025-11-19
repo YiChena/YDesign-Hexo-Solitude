@@ -1,5 +1,5 @@
 ---
-title: Java
+title: 学习笔记：Java
 date: 2020-11-01 00:00:00
 cover: https://ydesign.oss-cn-beijing.aliyuncs.com/Java.png
 tags:  

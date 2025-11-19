@@ -1,5 +1,5 @@
 ---
-title: Linux
+title: 学习笔记：Linux
 date: 2020-11-05 00:00:00
 cover: https://ydesign.oss-cn-beijing.aliyuncs.com/Linux.png
 tags:  

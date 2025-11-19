@@ -1,5 +1,5 @@
 ---
-title: UML
+title: 学习笔记：UML
 date: 2020-11-14 00:00:00
 cover: https://ydesign.oss-cn-beijing.aliyuncs.com/UML.png
 tags:  

@@ -1,5 +1,5 @@
 ---
-title: SpringMVC
+title: 学习笔记：SpringMVC
 date: 2020-11-07 00:00:00
 cover: https://ydesign.oss-cn-beijing.aliyuncs.com/SpringMVC.png
 tags:  
