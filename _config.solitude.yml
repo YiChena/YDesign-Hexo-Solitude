@@ -750,6 +750,8 @@ extends:
    - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
    - <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
    - <script>LA.init({id:"3O6mATrsTo1zcamR",ck:"3O6mATrsTo1zcamR"})</script>
+   - <script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/3O6mATrsTo1zcamR/quote.js?theme=0&col=true&f=12&badge=icon_0&icon=center"></script>
+
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
