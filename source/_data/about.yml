@@ -12,14 +12,14 @@ authorinfo:
 
 
 # 标题
-title: 关于本站
+title: # 关于本站
 
 # 介绍块
 # 这个模块必须写完整，如果不需要可以不写
 contentinfo: # 顶部个人信息展示
   sup: 你好，很高兴认识你👋
   name: 我叫 YiChen # 名称
-  title: 是一名独立开发者 # 介绍
+  title: 是一名 独立开发者 # 介绍
   tip: 追求
   slogan: 源于<br>热爱而去创造
   mask:
@@ -28,44 +28,62 @@ contentinfo: # 顶部个人信息展示
     - 高效的编程
     - 人性化的用户体验
 
+# 自定义
+cause:
+  tip: 关于本站
+  title: 为什么建站？
+  content:
+    <br><b>将所学记录，分享技术</b>。
+    <br>技术如繁星之多，迭代如春笋涌出。而人的脑海无法储存这些大量的知识。所以需要一个平台来整理学习到的知识体系或者记录生活的琐事。
+    <br><br><h1>本站的 TimeLine</h1>
+    2020年10月01日，本站使用<b>Hexo</b>（主题：<b>Butterfly</b>），部署到 <b>Git Page </b>
+    <br>2022年01月09日，整体迁移至 <b>VuePress</b> 部署到 <b>GitHub Pages </b>
+    <br>2025年11月16日，整体迁回至 <b>Hexo</b>（主题：<b>Solitude</b>），托管至 <b>Vercel</b> 更换域名为：<a href="https://www.yichencv.top/"><b>yichencv.top</b></a>
+
 # 技能图标轮播块
 # 此模块和生涯模块在一行，如不写则生涯模块单独占满一行。
 # 主要就是 tags 中的 img 和 icon 两种，其中 img 是图片地址，icon 是图标名称，你可以在 Skill Icons 中找到图标名称，你也可以自己寻找优质的图片图标。
-skills: # 根据需求添加
-  title: 技能
-  subtitle: 开启创造力
-  tags:
-    - title: Java
-      color: "#fff"
-      icon: fab fa-java
-    - title: Docker
-      color: "#57b6e6"
-      icon: fab fa-docker
-    - title: Node
-      color: "#333"
-      icon: fab fa-node
-    - title: Vue
-      color: "#b8f0ae"
-      icon: fab fa-vuejs
-    - title: JS
-      color: "#f7cb4f"
-      icon: fab fa-js
-    - title: HTML
-      color: "#e9572b"
-      icon: fab fa-html5
-    - title: Git
-      color: "#df5b40"
-      icon: fab fa-git
+# skills: # 根据需求添加
+#   title: 技能
+#   subtitle: 开启创造力
+#   tags:
+#     - title: Java
+#       color: "#fff"
+#       icon: fab fa-java
+#     - title: Docker
+#       color: "#57b6e6"
+#       icon: fab fa-docker
+#     - title: Node
+#       color: "#333"
+#       icon: fab fa-node
+#     - title: Vue
+#       color: "#b8f0ae"
+#       icon: fab fa-vuejs
+#     - title: JS
+#       color: "#f7cb4f"
+#       icon: fab fa-js
+#     - title: HTML
+#       color: "#e9572b"
+#       icon: fab fa-html5
+#     - title: Git
+#       color: "#df5b40"
+#       icon: fab fa-git
 
 # 生涯模块
 # 生涯模块和技能图标轮播模块在一行，如不写则技能图标轮播模块单独占满一行。
-careers:
-  title: 建站
-  subtitle: 無限進步
-  items:
-    - school: 2020年10月01日
-      major: YDesign 建站
-      color: "#357ef5"
+# careers:
+#   title: 本站的 TimeLine
+#   subtitle: 無限進步
+#   items:
+#     - school: 2020年10月01日
+#       major: 本站使用Hexo(主题：Butterfly),部署到 Git Page 
+#       color: "#357ef5"
+#     - school: 2022年01月09日
+#       major: 整体迁移至 VuePress 部署到 GitHub Pages 
+#       color: "#357ef5"
+#     - school: 2025年11月16日
+#       major: 迁回 Hexo(主题：Solitude),托管至 Vercel 更换域名为:yichencv.top
+#       color: "#357ef5"
   # image: https://cdn.lightxi.com/cloudreve/uploads/2025/07/31/y5BrUhFv_67a216483c354.webp
 
 # 性格模块
@@ -82,18 +100,18 @@ careers:
 #   myphoto: https://blog.xiowo.net/img/avatar.png
 
 # 座右铭
-motto:
-  title: 座右铭
-  prefix: 要主动去促进事情发生
-  content: 不要坐等事情发生
+# motto:
+#   title: 座右铭
+#   prefix: 要主动去促进事情发生
+#   content: 不要坐等事情发生
 
 # 特长模块
-expertise:
-  title: 特长
-  prefix: 开发 摄影 折腾
-  specialist: 专家
-  content: 学习 摆烂 
-  level: MAX
+# expertise:
+#   title: 特长
+#   prefix: 开发 摄影 折腾
+#   specialist: 专家
+#   content: 学习 摆烂 
+#   level: MAX
 
 # 游戏模块
 # 这个模块可以写多个，但最好不要超过 4 个。
@@ -153,37 +171,30 @@ expertise:
 #     button_link: /music/
 
 # 网站统计数据展示模块
-tj: # 统计
-  provider: 51la # 值为 51la（51la网站统计）或 custom（自建统计）
-  url: https://v6.51.la/report/daily?comId=3106894 # 需要到51la官网注册自行获取 or 自行搭建 Heo 的 百度统计项目，填写访问地址即可
-  img: https://i.p-i.vip/33/20250725-6883987819a97.webp # 背景
-  desc: 本站采用自建数据统计
+# tj: # 统计
+#   provider: 51la # 值为 51la（51la网站统计）或 custom（自建统计）
+#   url: https://v6.51.la/report/realtime?comId=3106894 # 需要到51la官网注册自行获取 or 自行搭建 Heo 的 百度统计项目，填写访问地址即可
+#   img: https://i.p-i.vip/33/20250725-6883987819a97.webp # 背景
+#   desc: 本站采用自建数据统计
 
 # 个人信息模块
-oneself: # 按需填写
-  location: 湖南省 长沙市 # 所在位置
-  birthYear: 2002 # 生日
-  university: 专业 # 毕业学校
-  major: 软件工程 # 专业
-  occupation: 独立开发者 # 职位
-  map: # 你所在位置的地图
-    light: https://ydesign.oss-cn-beijing.aliyuncs.com/%E5%9C%B0%E5%9B%BE-%E7%99%BD%E5%A4%A9.png # 白天
-    dark: https://ydesign.oss-cn-beijing.aliyuncs.com/%E5%9C%B0%E5%9B%BE-%E7%99%BD%E5%A4%A9.png # 夜晚
+# oneself: # 按需填写
+#   location: 湖南省,长沙市 # 所在位置
+#   birthYear: 2002 # 生日
+#   university: 专业 # 毕业学校
+#   major: 软件工程 # 专业
+#   occupation: 独立开发者 # 职位
+#   map: # 你所在位置的地图
+#     light: https://ydesign.oss-cn-beijing.aliyuncs.com/%E5%9C%B0%E5%9B%BE-%E7%99%BD%E5%A4%A9.png # 白天
+#     dark: https://ydesign.oss-cn-beijing.aliyuncs.com/%E5%9C%B0%E5%9B%BE-%E7%99%BD%E5%A4%A9.png # 夜晚
 
-# 自定义
-cause:
-  tip: 心路历程
-  title: 为什么建站？
-  content:
-    <br>将所学记录，分享<b>技术</b>。
-    <br><b>技术</b>如繁星之多，迭代如春笋涌出。而人的脑海无法储存这些大量的<b>知识</b>。所以需要一个平台来整理学习到的<b>知识体系</b>或者<b>记录生活</b>的琐事。
 
 # 十年之约
 tenyear:
   tips: 十年之约
   title: # 一个人的寂寞，一群人的狂欢。
-  start: 2022-02-13
-  end: 2032-02-13
+  start: 2020-10-01
+  end: 2030-10-01
 
 # 打赏列表
 award:

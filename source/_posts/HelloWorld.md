@@ -20,7 +20,7 @@ tags:
 type: 页面配置里含type值的/设置banner时需要配置
 comment: 显示页面/文章评论模块(默认 true)
 ai_text:
-recommend:
+recommend:  
 katex: 显示 katex(默认 false)
 reprint: 版权（默认为原创）为true时为转载
 locate: 湖南 长沙
@@ -28,3 +28,4 @@ desc:  页面/文章描述
 updated:  页面/文章更新日期
 aside: 是否开启侧边栏（默认true）
 ---
+

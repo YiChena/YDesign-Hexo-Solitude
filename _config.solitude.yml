@@ -24,14 +24,15 @@ nav:
   menu:
     # 首页: / # name: link
     文库: # name
-      归档: /archives/ || fas fa-folder-closed # item name: link || icon
-      分类: /categories/ || fas fa-clone
-      标签: /tags/ || fas fa-tags
+      全部文章: /archives/ || fas fa-folder-closed # item name: link || icon
+      文章分类: /categories/ || fas fa-clone
+      标签列表: /tags/ || fas fa-tags
     友链:
       # 朋友圈: /moments/ || fas fa-wifi
       友情链接: /links/ || fas fa-user-group
       宝藏博主: javascript:travelling() || fas fa-gift
     我的:
+      摄影: /gallery/ || fas fa-camera
       装备: /kit/ || fas fa-laptop
       音乐馆: /music/ || fas fa-music
     关于:
@@ -268,19 +269,22 @@ post:
   # 打赏
   award:
     enable: true
-    appreciators: /guide/ # Reward page
+    appreciators: /about/ # Reward page
     # Reward Title
     # 打赏标题
-    title: 感谢您的赞赏 # Thanks for your appreciation. / 感谢您的赞赏
-    desc: 由于您的支持，我才能够实现写作的价值 # Because of your support, I realize the value of writing articles. / 由于您的支持，我才能够实现写作的价值。
+    title: 感谢你赐予我前进的力量 # Thanks for your appreciation. / 感谢您的赞赏
+    desc: 因为您的支持让我意识到写文章的价值😉 # Because of your support, I realize the value of writing articles. / 由于您的支持，我才能够实现写作的价值。
     # Reward list
     # 打赏列表
     list:
-      - name: 感谢您的赞赏  
+      - name: 支付宝
         qcode: https://s3.qjqq.cn/47/661ba900c4bc1.webp!color
-        url: https://github.com/sponsors/everfu
+        url: https://ydesign.oss-cn-beijing.aliyuncs.com/zfb.png
+        color: var(--efu-black) 
+      - name: 微信
+        qcode: https://s3.qjqq.cn/47/661ba900c4bc1.webp!color
+        url: https://ydesign.oss-cn-beijing.aliyuncs.com/wx.png
         color: var(--efu-black)
-
   # Share icon
   # 分享图标
   share:
@@ -295,7 +299,8 @@ post:
       # - linkedin
       - link
       - qrcode
-  rss:  /atom.xml
+  rss: /
+  # rss:  /atom.xml #订阅
   # Article reading progress
   # 文章封面取色
   covercolor:
