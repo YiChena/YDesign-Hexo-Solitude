@@ -29,7 +29,7 @@ nav:
       标签列表: /tags/ || fas fa-tags
     友链:
       # 朋友圈: /moments/ || fas fa-wifi
-      友情链接: /links/ || fas fa-user-group
+      友人帐: /links/ || fas fa-user-group
       宝藏博主: javascript:travelling() || fas fa-gift
     我的:
       摄影: /gallery/ || fas fa-camera
