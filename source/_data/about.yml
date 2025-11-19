@@ -72,19 +72,13 @@ cause:
 # 生涯模块
 # 生涯模块和技能图标轮播模块在一行，如不写则技能图标轮播模块单独占满一行。
 # careers:
-#   title: 本站的 TimeLine
+#   title: 生涯
 #   subtitle: 無限進步
 #   items:
 #     - school: 2020年10月01日
 #       major: 本站使用Hexo(主题：Butterfly),部署到 Git Page 
 #       color: "#357ef5"
-#     - school: 2022年01月09日
-#       major: 整体迁移至 VuePress 部署到 GitHub Pages 
-#       color: "#357ef5"
-#     - school: 2025年11月16日
-#       major: 迁回 Hexo(主题：Solitude),托管至 Vercel 更换域名为:yichencv.top
-#       color: "#357ef5"
-  # image: https://cdn.lightxi.com/cloudreve/uploads/2025/07/31/y5BrUhFv_67a216483c354.webp
+#   image: https://cdn.lightxi.com/cloudreve/uploads/2025/07/31/y5BrUhFv_67a216483c354.webp
 
 # 性格模块
 # personalities:
@@ -100,18 +94,18 @@ cause:
 #   myphoto: https://blog.xiowo.net/img/avatar.png
 
 # 座右铭
-# motto:
-#   title: 座右铭
-#   prefix: 要主动去促进事情发生
-#   content: 不要坐等事情发生
+motto:
+  title: 座右铭
+  prefix: 要主动去促进事情发生
+  content: 不要坐等事情发生
 
 # 特长模块
-# expertise:
-#   title: 特长
-#   prefix: 开发 摄影 折腾
-#   specialist: 专家
-#   content: 学习 摆烂 
-#   level: MAX
+expertise:
+  title: 特长
+  prefix: 给邻居家的猫搭建
+  specialist: CDN节点
+  content: 现在它看猫片
+  level: 比我还流畅
 
 # 游戏模块
 # 这个模块可以写多个，但最好不要超过 4 个。
@@ -171,27 +165,27 @@ cause:
 #     button_link: /music/
 
 # 网站统计数据展示模块
-# tj: # 统计
-#   provider: 51la # 值为 51la（51la网站统计）或 custom（自建统计）
-#   url: https://v6.51.la/report/realtime?comId=3106894 # 需要到51la官网注册自行获取 or 自行搭建 Heo 的 百度统计项目，填写访问地址即可
-#   img: https://i.p-i.vip/33/20250725-6883987819a97.webp # 背景
-#   desc: 本站采用自建数据统计
+tj: # 统计
+  provider: custom # 值为 51la（51la网站统计）或 custom（自建统计）
+  url: https://umami-api.holyfox.net/ # 需要到51la官网注册自行获取 or 自行搭建 Heo 的 百度统计项目，填写访问地址即可
+  img: https://i.p-i.vip/33/20250725-6883987819a97.webp # 背景
+  desc: 本站采用自建数据统计
 
 # 个人信息模块
-# oneself: # 按需填写
-#   location: 湖南省,长沙市 # 所在位置
-#   birthYear: 2002 # 生日
-#   university: 专业 # 毕业学校
-#   major: 软件工程 # 专业
-#   occupation: 独立开发者 # 职位
-#   map: # 你所在位置的地图
-#     light: https://ydesign.oss-cn-beijing.aliyuncs.com/%E5%9C%B0%E5%9B%BE-%E7%99%BD%E5%A4%A9.png # 白天
-#     dark: https://ydesign.oss-cn-beijing.aliyuncs.com/%E5%9C%B0%E5%9B%BE-%E7%99%BD%E5%A4%A9.png # 夜晚
+oneself: # 按需填写
+  location: 湖南省 长沙市 # 所在位置
+  birthYear: 2002 # 生日
+  university: 专业 # 毕业学校
+  major: 软件工程 # 专业
+  occupation: 独立开发者 # 职位
+  map: # 你所在位置的地图
+    light: https://ydesign.oss-cn-beijing.aliyuncs.com/%E5%9C%B0%E5%9B%BE-%E7%99%BD%E5%A4%A9.png # 白天
+    dark: https://ydesign.oss-cn-beijing.aliyuncs.com/%E5%9C%B0%E5%9B%BE-%E7%99%BD%E5%A4%A9.png # 夜晚
 
 
 # 十年之约
 tenyear:
-  tips: 十年之约
+  tips: 建站十年
   title: # 一个人的寂寞，一群人的狂欢。
   start: 2020-10-01
   end: 2030-10-01
@@ -202,12 +196,12 @@ award:
   description: 感谢赞赏的人，因为你们，让我感受到写博客这件事情能够给你们创造了价值。这会让我在这条路上走得更远。
   tips: 总金额：¥ {sum}，将全部用于博客的维护和更新。 # 必须带 {sum}，否则无法显示总金额
 rewardList: # 底部捐赠
-  - name: "🌽"
-    money: 100
+  - name: "NWR"
+    money: 66.66
     time: 2025-08-29
     icon: fab fa-weixin
     color: "#09bb07"
-  - name: "NWR"
+  - name: "🌽"
     money: 100
     time: 2025-11-17
     icon: fab fa-alipay 
