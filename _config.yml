@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: YDesign 日志 # 网站标题
+title: YDesign # 网站标题
 subtitle: '分享技术与生活' # 网站副标题
 description: '技术' # 网站描述 (用于SEO，告诉搜索引擎你的网站是关于什么的)
 keywords: YDesign # 网站关键词,用逗号隔开
@@ -97,6 +97,7 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: solitude
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
