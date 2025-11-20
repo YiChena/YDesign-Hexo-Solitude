@@ -1,9 +1,5 @@
-- content: 每天都是绝版呢 😊
+- content: 网站凌乱，希望标题达意，内容详略，愿君可于字句间有所收获。
   date: 2025-01-01 00:00
-- content: 凡人修仙传
-  date: 2025-01-01 00:00
-  video:
-    bilibili: ss28747
 # - content: 外链视频短文
 #   date: 2025-01-01 00:00
 #   video:
@@ -22,15 +18,20 @@
     - url: https://ydesign.oss-cn-beijing.aliyuncs.com/logo.png
       alt: YDesign
 
-- content: # 音乐短文
+- content: 爱情转移 # 音乐短文
   date: 2025-11-17 00:00
   aplayer:
     server: netease # 音乐服务商，如netease
     id: 65536 # 单曲id，不了解具体查看方法建议询问搜索引擎
 
-# - content: 链接短文
+# - content: 
 #   date: 2025-01-01 00:00
-#   link: 链接
+#   video: 
+#     bilibili: ss28747
+
+- content: 本网站的各内容页都有版权标识，若能得欣赏，望转载标注来源。 
+  date: 2025-01-01 00:00
+  link: https://www.yichencv.top/guide/
 
 - content: ...
   date: 2025-01-01 00:00
