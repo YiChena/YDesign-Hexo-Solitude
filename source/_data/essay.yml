@@ -1,12 +1,38 @@
-- class_name: 即刻短文
-  essay_list:
-    - content: 即刻短文用上了木木发的waterfall的js，瀑布流真令人愉悦
-      date: 2022-08-12
-    - content: iOS16现在感觉已经很稳定了，bug比较少，令人讨厌的就是一个是切换横竖屏抖音和b站都有点问题，然后就是软件请求剪贴板弹窗真的烦
-      date: 2022-08-12
-    - content: 现在即刻短文已经纯本地化部署完成，不再依赖任何第三方服务了
-      date: 2022-08-12
-    - content: 在整理转载文章的时候发现很多文章原文都无法访问了，所以本地保存网页是非常重要的
-      date: 2022-08-05T06:08:54.978Z
-    - content: adguardhome真的不能设置太久的缓存时间，否则非常容易卡和无响应。然后就是注意添加白名单
-      date: 2022-08-04T10:10:09.984Z
+- content: 网站凌乱，希望标题达意，内容详略，愿君可于字句间有所收获。
+  date: 2025-01-01 00:00
+# - content: 外链视频短文
+#   date: 2025-01-01 00:00
+#   video:
+#     player: # 视频直链
+
+
+# - content: 图片短文（无图片描述）
+#   date: 2025-01-01 00:00
+#   image:
+#     - https://bu.dusays.com/2025/08/12/689a2b8c80875.png
+#     - https://bu.dusays.com/2025/08/12/689a2b8c80875.png
+
+- content: 建站五周年
+  date: 2025-10-01 00:00
+  image:
+    - url: https://ydesign.oss-cn-beijing.aliyuncs.com/logo.png
+      alt: YDesign
+
+- content: 爱情转移 # 音乐短文
+  date: 2025-11-17 00:00
+  aplayer:
+    server: netease # 音乐服务商，如netease
+    id: 65536 # 单曲id，不了解具体查看方法建议询问搜索引擎
+
+# - content: 
+#   date: 2025-01-01 00:00
+#   video: 
+#     bilibili: ss28747
+
+- content: 本网站的各内容页都有版权标识，若能得欣赏，望转载标注来源。 
+  date: 2025-01-01 00:00
+  link: https://www.yichencv.top/guide/
+
+- content: ...
+  date: 2025-01-01 00:00
+  location: 湖南省 长沙市
