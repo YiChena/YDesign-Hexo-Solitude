@@ -3,7 +3,7 @@
 site:
   name:
     class: text # text / i_class / img
-    custom: YDesign  # Solitude / fas fa-ghost / /img/pwa/favicon.ico
+    custom: 云轻無限  # Solitude / fas fa-ghost / /img/pwa/favicon.ico
   icon: https://ydesign.oss-cn-beijing.aliyuncs.com/logoIco.ico # Site icon / 网站图标
 # --------------------------- end ---------------------------
 
@@ -15,10 +15,10 @@ nav:
   # 左侧盒子
   group:
    博客:  # name  
-     YDesign: / || https://ydesign.oss-cn-beijing.aliyuncs.com/logo-003.png # name: url || icon
+     云轻無限: / || https://ydesign.oss-cn-beijing.aliyuncs.com/logo-003.png # name: url || icon
     #  YDesign-VuePress: / || https://ydesign.oss-cn-beijing.aliyuncs.com/logo-003.png # name: url || icon
    公众号:  # name
-     YDesign: / || https://ydesign.oss-cn-beijing.aliyuncs.com/logo-003.png # name: url || icon
+     云轻無限: / || https://ydesign.oss-cn-beijing.aliyuncs.com/logo-003.png # name: url || icon
   # Menu
   # 菜单
   menu:

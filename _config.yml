@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: YDesign # 网站标题
+title:  云轻無限・云轻無限 # 网站标题
 subtitle: '分享技术与生活' # 网站副标题
 description: '技术' # 网站描述 (用于SEO，告诉搜索引擎你的网站是关于什么的)
-keywords: YDesign # 网站关键词,用逗号隔开
+keywords: 云轻無限 # 网站关键词,用逗号隔开
 author: YiChen # 你的名字
 language: zh-CN  # 简体中文，根据主题要求可能为 zh-Hans
 timezone: ''  # 时区
